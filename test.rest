@@ -1,0 +1,20 @@
+###
+GET http://localhost:8080/api/users/rangga HTTP/1.1
+Content-Type: application/json
+
+###
+POST http://localhost:8080/api/users HTTP/1.1
+Content-Type: application/json
+
+{"username":"ranggarsusa",
+"password":"rangga105"}
+
+###
+DELETE http://localhost:8080/api/users/7 HTTP/1.1
+Content-Type: application/json
+
+
+###
+GET http://localhost:8080/api/notes
+Content-Type: application/json
+
