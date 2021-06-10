@@ -16,6 +16,10 @@ const PORT = process.env.PORT;
 
 //route
 
+app.get("/", async (req, res) => {
+  res.send("Hello");
+});
+
 app.get("/api/users", async (req, res) => {
   knex("users")
     .select("username", "password")
